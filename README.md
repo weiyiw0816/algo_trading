@@ -12,6 +12,6 @@ Code XXXX2 calculates intraday patterns under the first 2 trading hours: (identi
 
 a. if the lowest price in the first 90min lower or higher than the previous day lowest (by at least 1 cent), what is the return for the rest of day
 
-b. if the highest price in the first 90min higher than the previous day Highest (by at least 1 cent), what is the return for the rest of day
+b. For each day, if the highest price in the first 90min is higher than the previous day Highest (by at least 1 cent), what is the return for the rest of the day
 
 c. ....
