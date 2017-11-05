@@ -31,6 +31,9 @@ gap up advantage: minimize risk - aviod big volatility
 
 
 # December projects
+0. Code XXXX3 calculates intraday patterns under the last 30min trading in the previous day: 
+if it goes up (or down) by X% during the last 30min in the PREVIUS day, (A) what is the intraday return distribution Y of the NEXT day (from day open to day close)  and what is the return distribution Z from the previous day close and the next day close
+
 1. try out Robin auto-trading
 2. make connection with VIX (read more VIX & XIV)
 - XIV is driven by 2 competing force - 1 movement of vix index itself 2 curve of vix future
