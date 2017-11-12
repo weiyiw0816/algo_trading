@@ -28,10 +28,14 @@ gap up advantage: minimize risk - aviod big volatility
 3. Under Gap up: not (if the lowest price in the first 90min lower than the previous day lowest (by at least 1 cent), what is the return for the rest of day)
 4. Under Gap up: not (if the lowest price in the first 30min lower than the previous day lowest (by at least 1 cent), what is the return for the rest of day)
 
+# take away of 11/12/17
+1. gap down < -2% has ok return 
 
 
 # December projects
-0. Code XXXX3 calculates intraday patterns under the last 30min trading in the previous day: 
+0.1 what is the best buying point (lowest price) vs. best selling point (highest price) during intra day?
+
+0.2 Code XXXX3 calculates intraday patterns under the last 30min trading in the previous day: 
 if it goes up (or down) by X% during the last 30min in the PREVIUS day, (A) what is the intraday return distribution Y of the NEXT day (from day open to day close)  and what is the return distribution Z from the previous day close and the next day close
 
 1. try out Robin auto-trading
