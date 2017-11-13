@@ -29,7 +29,13 @@ gap up advantage: minimize risk - aviod big volatility
 4. Under Gap up: not (if the lowest price in the first 30min lower than the previous day lowest (by at least 1 cent), what is the return for the rest of day)
 
 # take away of 11/12/17
-1. gap down < -2% has ok return 
+con:(needs to be double confirm)
+1. gap up: buying at 30min has advantage over buying at open because gap-up scenario1 is positive?
+2. gap down within 2%: buy at open and sale at 30min is a good strategy?
+because buy at gap-down open has similar return as gap-up (1st week conclude never buy at gap-down - use 30min, this week conclude it's fine to buy at gap-down within 2% use open price)
+3. what is the best buying point (lowest price) vs. best selling point (highest price) during intraday?
+- calculate intraday returns for time interval of every 30min: i.e., 0-30,30-60, 60-90... (ALL, and gap-up only)
+- Find a lowest price of each date and record it as time T, show a distribution of T. Simply mark T=1 if it is within 30min after opening, T=2 if it is 60min after opening, T=3...
 
 
 # December projects
@@ -38,7 +44,8 @@ gap up advantage: minimize risk - aviod big volatility
 0.2 Code XXXX3 calculates intraday patterns under the last 30min trading in the previous day: 
 if it goes up (or down) by X% during the last 30min in the PREVIUS day, (A) what is the intraday return distribution Y of the NEXT day (from day open to day close)  and what is the return distribution Z from the previous day close and the next day close
 
-1. try out Robin auto-trading
+1. try out IB code (no longer Robin auto-trading)
 2. make connection with VIX (read more VIX & XIV)
 - XIV is driven by 2 competing force - 1 movement of vix index itself 2 curve of vix future
+http://www.trader1688.com/bb/viewtopic.php?f=5&t=61760&st=0&sk=t&sd=a&sid=9746de8fcfca49dbdbee0279b5f8df20
 3. R-shiny implementation
