@@ -49,3 +49,5 @@ if it goes up (or down) by X% during the last 30min in the PREVIUS day, (A) what
 - XIV is driven by 2 competing force - 1 movement of vix index itself 2 curve of vix future
 http://www.trader1688.com/bb/viewtopic.php?f=5&t=61760&st=0&sk=t&sd=a&sid=9746de8fcfca49dbdbee0279b5f8df20
 3. R-shiny implementation
+
+4. https://github.com/T1n9/nasdaq_rank.git
