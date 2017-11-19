@@ -44,7 +44,7 @@ because buy at gap-down open has similar return as gap-up (1st week conclude nev
 0.2 Code XXXX3 calculates intraday patterns under the last 30min trading in the previous day: 
 if it goes up (or down) by X% during the last 30min in the PREVIUS day, (A) what is the intraday return distribution Y of the NEXT day (from day open to day close)  and what is the return distribution Z from the previous day close and the next day close
 
-1. try out IB code (no longer Robin auto-trading)
+1. try out IB or Robin auto-trading
 2. make connection with VIX (read more VIX & XIV)
 - XIV is driven by 2 competing force - 1 movement of vix index itself 2 curve of vix future
 http://www.trader1688.com/bb/viewtopic.php?f=5&t=61760&st=0&sk=t&sd=a&sid=9746de8fcfca49dbdbee0279b5f8df20
